@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1]
+
 ### Changed
 - Update the bundled Azure SDK to `azure-core` 1.61.0 (with `azure-storage-blob` 12.37.2 and `azure-identity` 1.19.0), which no longer forces `org.slf4j.LoggerFactory` to build-time initialization in GraalVM native images
 
@@ -15,6 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Update Netty to 4.2.18.Final and Reactor Netty to 1.3.7, replacing `netty-codec` with `netty-codec-base` ([#9152](https://github.com/ballerina-platform/ballerina-library/issues/9152))
 - Update the minimum required Ballerina distribution to 2201.14.0 (Swan Lake Update 14) with Java 25 support
+
+## [1.1.1]
+
+### Changed
+- Update the bundled Azure SDK to `azure-core` 1.60.0 (with `azure-storage-blob` 12.36.1 and `azure-identity` 1.18.7) and Reactor to 3.7.19 / Reactor Netty 1.2.18. `azure-core` 1.59.0+ no longer forces `org.slf4j.LoggerFactory` to build-time initialization in GraalVM native images
+- Update Netty to 4.1.138.Final to address CVE-2026-75595, CVE-2026-75596 and CVE-2026-59903
 
 ## [1.1.0]
 
