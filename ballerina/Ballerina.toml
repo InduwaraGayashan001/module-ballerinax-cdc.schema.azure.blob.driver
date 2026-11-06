@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "cdc.schema.azure.blob.driver"
-version = "1.2.0"
+version = "1.2.1"
 distribution = "2201.14.0"
 authors = ["Ballerina"]
 keywords = ["CDC", "Debezium", "Area/Database", "Type/Driver", "Vendor/Red Hat"]
@@ -14,8 +14,8 @@ graalvmCompatible = true
 [[platform.java25.dependency]]
 groupId = "io.ballerina.lib"
 artifactId = "cdc.schema.azure.blob.driver-native"
-version = "1.2.0"
-path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.2.0.jar"
+version = "1.2.1"
+path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.2.1-SNAPSHOT.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.debezium"
