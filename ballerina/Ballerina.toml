@@ -26,56 +26,56 @@ path = "./lib/debezium-storage-azure-blob-3.5.1.Final.jar"
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-blob"
-version = "12.29.0"
-path = "./lib/azure-storage-blob-12.29.0.jar"
+version = "12.37.2"
+path = "./lib/azure-storage-blob-12.37.2.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-common"
-version = "12.28.0"
-path = "./lib/azure-storage-common-12.28.0.jar"
+version = "12.36.2"
+path = "./lib/azure-storage-common-12.36.2.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-internal-avro"
-version = "12.14.0"
-path = "./lib/azure-storage-internal-avro-12.14.0.jar"
+version = "12.22.2"
+path = "./lib/azure-storage-internal-avro-12.22.2.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core"
-version = "1.55.3"
-path = "./lib/azure-core-1.55.3.jar"
+version = "1.61.0"
+path = "./lib/azure-core-1.61.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core-http-netty"
-version = "1.15.11"
-path = "./lib/azure-core-http-netty-1.15.11.jar"
+version = "1.17.0"
+path = "./lib/azure-core-http-netty-1.17.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-identity"
-version = "1.15.4"
-path = "./lib/azure-identity-1.15.4.jar"
+version = "1.19.0"
+path = "./lib/azure-identity-1.19.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-json"
-version = "1.5.0"
-path = "./lib/azure-json-1.5.0.jar"
+version = "1.5.1"
+path = "./lib/azure-json-1.5.1.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.azure"
 artifactId = "azure-xml"
-version = "1.1.0"
-path = "./lib/azure-xml-1.1.0.jar"
+version = "1.2.1"
+path = "./lib/azure-xml-1.2.1.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.microsoft.azure"
 artifactId = "msal4j"
-version = "1.19.1"
-path = "./lib/msal4j-1.19.1.jar"
+version = "1.26.0"
+path = "./lib/msal4j-1.26.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.microsoft.azure"
@@ -134,14 +134,14 @@ path = "./lib/asm-9.7.1.jar"
 [[platform.java25.dependency]]
 groupId = "net.java.dev.jna"
 artifactId = "jna"
-version = "5.13.0"
-path = "./lib/jna-5.13.0.jar"
+version = "5.17.0"
+path = "./lib/jna-5.17.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "net.java.dev.jna"
 artifactId = "jna-platform"
-version = "5.13.0"
-path = "./lib/jna-platform-5.13.0.jar"
+version = "5.17.0"
+path = "./lib/jna-platform-5.17.0.jar"
 
 [[platform.java25.dependency]]
 groupId = "com.fasterxml.jackson.dataformat"
