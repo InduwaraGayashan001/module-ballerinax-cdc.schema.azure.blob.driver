@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "cdc.schema.azure.blob.driver"
-version = "1.1.0"
+version = "1.1.1"
 distribution = "2201.12.0"
 authors = ["Ballerina"]
 keywords = ["CDC", "Debezium", "Area/Database", "Type/Driver", "Vendor/Red Hat"]
@@ -14,8 +14,8 @@ graalvmCompatible = true
 [[platform.java21.dependency]]
 groupId = "io.ballerina.lib"
 artifactId = "cdc.schema.azure.blob.driver-native"
-version = "1.1.0"
-path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.1.0.jar"
+version = "1.1.1"
+path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.1.1-SNAPSHOT.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.debezium"
@@ -26,56 +26,56 @@ path = "./lib/debezium-storage-azure-blob-3.5.1.Final.jar"
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-blob"
-version = "12.29.0"
-path = "./lib/azure-storage-blob-12.29.0.jar"
+version = "12.36.1"
+path = "./lib/azure-storage-blob-12.36.1.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-common"
-version = "12.28.0"
-path = "./lib/azure-storage-common-12.28.0.jar"
+version = "12.35.1"
+path = "./lib/azure-storage-common-12.35.1.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-internal-avro"
-version = "12.14.0"
-path = "./lib/azure-storage-internal-avro-12.14.0.jar"
+version = "12.21.1"
+path = "./lib/azure-storage-internal-avro-12.21.1.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core"
-version = "1.55.3"
-path = "./lib/azure-core-1.55.3.jar"
+version = "1.60.0"
+path = "./lib/azure-core-1.60.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core-http-netty"
-version = "1.15.11"
-path = "./lib/azure-core-http-netty-1.15.11.jar"
+version = "1.16.8"
+path = "./lib/azure-core-http-netty-1.16.8.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-identity"
-version = "1.15.4"
-path = "./lib/azure-identity-1.15.4.jar"
+version = "1.18.7"
+path = "./lib/azure-identity-1.18.7.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-json"
-version = "1.5.0"
-path = "./lib/azure-json-1.5.0.jar"
+version = "1.5.1"
+path = "./lib/azure-json-1.5.1.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-xml"
-version = "1.1.0"
-path = "./lib/azure-xml-1.1.0.jar"
+version = "1.2.1"
+path = "./lib/azure-xml-1.2.1.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.microsoft.azure"
 artifactId = "msal4j"
-version = "1.19.1"
-path = "./lib/msal4j-1.19.1.jar"
+version = "1.26.0"
+path = "./lib/msal4j-1.26.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.microsoft.azure"
@@ -134,14 +134,14 @@ path = "./lib/asm-9.7.1.jar"
 [[platform.java21.dependency]]
 groupId = "net.java.dev.jna"
 artifactId = "jna"
-version = "5.13.0"
-path = "./lib/jna-5.13.0.jar"
+version = "5.17.0"
+path = "./lib/jna-5.17.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "net.java.dev.jna"
 artifactId = "jna-platform"
-version = "5.13.0"
-path = "./lib/jna-platform-5.13.0.jar"
+version = "5.17.0"
+path = "./lib/jna-platform-5.17.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.fasterxml.jackson.dataformat"
@@ -158,20 +158,20 @@ path = "./lib/jackson-datatype-jsr310-2.19.0.jar"
 [[platform.java21.dependency]]
 groupId = "io.projectreactor"
 artifactId = "reactor-core"
-version = "3.4.41"
-path = "./lib/reactor-core-3.4.41.jar"
+version = "3.7.19"
+path = "./lib/reactor-core-3.7.19.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.projectreactor.netty"
 artifactId = "reactor-netty-core"
-version = "1.0.48"
-path = "./lib/reactor-netty-core-1.0.48.jar"
+version = "1.2.18"
+path = "./lib/reactor-netty-core-1.2.18.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.projectreactor.netty"
 artifactId = "reactor-netty-http"
-version = "1.0.48"
-path = "./lib/reactor-netty-http-1.0.48.jar"
+version = "1.2.18"
+path = "./lib/reactor-netty-http-1.2.18.jar"
 
 [[platform.java21.dependency]]
 groupId = "org.reactivestreams"
@@ -185,77 +185,77 @@ path = "./lib/reactive-streams-1.0.4.jar"
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-buffer"
-version = "4.1.136.Final"
-path = "./lib/netty-buffer-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-buffer-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-common"
-version = "4.1.136.Final"
-path = "./lib/netty-common-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-common-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec"
-version = "4.1.136.Final"
-path = "./lib/netty-codec-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-codec-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http"
-version = "4.1.136.Final"
-path = "./lib/netty-codec-http-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-codec-http-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http2"
-version = "4.1.136.Final"
-path = "./lib/netty-codec-http2-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-codec-http2-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-socks"
-version = "4.1.136.Final"
-path = "./lib/netty-codec-socks-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-codec-socks-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler"
-version = "4.1.136.Final"
-path = "./lib/netty-handler-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-handler-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler-proxy"
-version = "4.1.136.Final"
-path = "./lib/netty-handler-proxy-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-handler-proxy-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-transport"
-version = "4.1.136.Final"
-path = "./lib/netty-transport-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-transport-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-resolver"
-version = "4.1.136.Final"
-path = "./lib/netty-resolver-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-resolver-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-transport-native-unix-common"
-version = "4.1.136.Final"
-path = "./lib/netty-transport-native-unix-common-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-transport-native-unix-common-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-dns"
-version = "4.1.136.Final"
-path = "./lib/netty-codec-dns-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-codec-dns-4.1.138.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-resolver-dns"
-version = "4.1.136.Final"
-path = "./lib/netty-resolver-dns-4.1.136.Final.jar"
+version = "4.1.138.Final"
+path = "./lib/netty-resolver-dns-4.1.138.Final.jar"
