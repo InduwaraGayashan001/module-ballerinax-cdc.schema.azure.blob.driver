@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Fix the Azure Blob schema history in GraalVM native images by registering the Azure SDK storage error classes for reflection, which the SDK uses when a container does not exist yet.
+
 ## [1.1.1]
 
 ### Changed
